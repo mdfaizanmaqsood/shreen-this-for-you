@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreen</title>
+    <script src="https://kit.fontawesome.com/f357b50415.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .contain {
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+           
+
+        }
+
+        .contain .card {
+            width: 600px;
+            height: 400px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid #ccc;
+            border-radius: 40px;
+            box-shadow: 10px 10px 10px #6598ac;
+            background: linear-gradient(70deg, #afddee, #ffd9ec);
+            background-size: cover;
+        }
+        .card .card-p1{
+            text-decoration: none;
+            font-size: 50px;
+            color:  #f1adcf;
+            margin-left: 40px;
+        }
+        .card .card-p1:hover{
+            color: #f1adcf;
+            transform: scale(1.5);
+        }
+        .card .card-p{
+            font-size: 30px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #6598ac;
+        }
+        .card .card-p2{
+            text-decoration: none;
+            font-size: 50px;
+            text-transform: uppercase;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 700;
+            color: #de7bad;
+            margin-right: 40px;
+            transition: all .3s ease-in;
+        }
+        .card .card-p2:hover{
+            border-bottom: 1px solid #6598ac;
+            color: #6598ac;
+            transform: translateY(-5px);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="contain">
+        <div class="card">
+            <a href="#" class="card-p1"><i class="fa-solid fa-hand"></i></a>
+            <p class="card-p">its me </p>
+            <a href="come.html" class="card-p2"><i class="fa-solid fa-fingerprint"></i></a>
+        </div>
+    </div>
+</body>
+
+</html>
